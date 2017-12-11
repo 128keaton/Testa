@@ -19,12 +19,14 @@
 		8A7452851FDF184A00E34874 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7452771FDF184A00E34874 /* TestData.swift */; };
 		8A7452861FDF184A00E34874 /* TestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7452781FDF184A00E34874 /* TestType.swift */; };
 		8A7452871FDF184A00E34874 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74527A1FDF184A00E34874 /* Services.swift */; };
+		8A7452891FDF199F00E34874 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A7452881FDF199F00E34874 /* Info.plist */; };
+		8A74528B1FDF1A8C00E34874 /* Testa.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8A74528A1FDF1A8C00E34874 /* Testa.podspec */; };
+		8A74528D1FDF1AEB00E34874 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8A74528C1FDF1AEB00E34874 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8A74525F1FDF182A00E34874 /* Testa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Testa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A7452621FDF182A00E34874 /* Testa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Testa.h; sourceTree = "<group>"; };
-		8A7452631FDF182A00E34874 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A74526B1FDF184900E34874 /* Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		8A74526E1FDF184900E34874 /* Testa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testa.swift; sourceTree = "<group>"; };
 		8A7452711FDF184900E34874 /* moof.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = moof.wav; sourceTree = "<group>"; };
@@ -36,6 +38,9 @@
 		8A7452771FDF184A00E34874 /* TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		8A7452781FDF184A00E34874 /* TestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestType.swift; sourceTree = "<group>"; };
 		8A74527A1FDF184A00E34874 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		8A7452881FDF199F00E34874 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A74528A1FDF1A8C00E34874 /* Testa.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Testa.podspec; path = ../Testa.podspec; sourceTree = "<group>"; };
+		8A74528C1FDF1AEB00E34874 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,8 @@
 		8A7452551FDF182A00E34874 = {
 			isa = PBXGroup;
 			children = (
+				8A74528C1FDF1AEB00E34874 /* README.md */,
+				8A74528A1FDF1A8C00E34874 /* Testa.podspec */,
 				8A7452611FDF182A00E34874 /* Source */,
 				8A7452601FDF182A00E34874 /* Products */,
 			);
@@ -68,6 +75,7 @@
 		8A7452611FDF182A00E34874 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				8A7452881FDF199F00E34874 /* Info.plist */,
 				8A74526A1FDF184900E34874 /* Classes */,
 				8A7452791FDF184A00E34874 /* Information */,
 				8A74526E1FDF184900E34874 /* Testa.swift */,
@@ -75,7 +83,6 @@
 				8A74526F1FDF184900E34874 /* Tests */,
 				8A7452781FDF184A00E34874 /* TestType.swift */,
 				8A7452621FDF182A00E34874 /* Testa.h */,
-				8A7452631FDF182A00E34874 /* Info.plist */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -187,7 +194,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A7452891FDF199F00E34874 /* Info.plist in Resources */,
 				8A74527F1FDF184A00E34874 /* moof.wav in Resources */,
+				8A74528D1FDF1AEB00E34874 /* README.md in Resources */,
+				8A74528B1FDF1A8C00E34874 /* Testa.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,8 +348,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Testa/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keaton.Testa.Testa;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -361,8 +372,9 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Testa/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Source/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.keaton.Testa.Testa;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
