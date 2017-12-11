@@ -1,5 +1,5 @@
 #  Testà
-## an iOS device testing framework
+### an iOS device testing framework
 
 Easily run tests on an iOS device to test:
 * Buttons
@@ -10,7 +10,13 @@ Easily run tests on an iOS device to test:
 * Headphone jack
 
 
-### Installation:
+## Installation:
 
-**Cocoapods:**
+### Cocoapods:
 `pod 'Testa'`
+
+### Carthage:
+`github "128keaton/Testa" ~> 0.0.1`
+
+
+
