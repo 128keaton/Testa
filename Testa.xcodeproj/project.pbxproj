@@ -20,8 +20,8 @@
 		8A7452861FDF184A00E34874 /* TestType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A7452781FDF184A00E34874 /* TestType.swift */; };
 		8A7452871FDF184A00E34874 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A74527A1FDF184A00E34874 /* Services.swift */; };
 		8A7452891FDF199F00E34874 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8A7452881FDF199F00E34874 /* Info.plist */; };
-		8A74528B1FDF1A8C00E34874 /* Testa.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8A74528A1FDF1A8C00E34874 /* Testa.podspec */; };
 		8A74528D1FDF1AEB00E34874 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8A74528C1FDF1AEB00E34874 /* README.md */; };
+		8A74528F1FDF1CEB00E34874 /* Testa.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 8A74528E1FDF1CEB00E34874 /* Testa.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +39,8 @@
 		8A7452781FDF184A00E34874 /* TestType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestType.swift; sourceTree = "<group>"; };
 		8A74527A1FDF184A00E34874 /* Services.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		8A7452881FDF199F00E34874 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8A74528A1FDF1A8C00E34874 /* Testa.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = Testa.podspec; path = ../Testa.podspec; sourceTree = "<group>"; };
 		8A74528C1FDF1AEB00E34874 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8A74528E1FDF1CEB00E34874 /* Testa.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Testa.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +57,8 @@
 		8A7452551FDF182A00E34874 = {
 			isa = PBXGroup;
 			children = (
+				8A74528E1FDF1CEB00E34874 /* Testa.podspec */,
 				8A74528C1FDF1AEB00E34874 /* README.md */,
-				8A74528A1FDF1A8C00E34874 /* Testa.podspec */,
 				8A7452611FDF182A00E34874 /* Source */,
 				8A7452601FDF182A00E34874 /* Products */,
 			);
@@ -196,8 +196,8 @@
 			files = (
 				8A7452891FDF199F00E34874 /* Info.plist in Resources */,
 				8A74527F1FDF184A00E34874 /* moof.wav in Resources */,
+				8A74528F1FDF1CEB00E34874 /* Testa.podspec in Resources */,
 				8A74528D1FDF1AEB00E34874 /* README.md in Resources */,
-				8A74528B1FDF1A8C00E34874 /* Testa.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
